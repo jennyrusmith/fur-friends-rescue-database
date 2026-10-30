@@ -19,6 +19,22 @@ The database features 8 relational tables linked via many-to-one (`>`) foreign k
 
 ---
 
+## Repository Structure & File Guide
+Every component of this project is organized into dedicated directories within the main branch for easy navigation:
+
+* **`README.md`**: This homepage file containing the project overview, core database features, and testing workflow.
+* **`data_dictionary.md`** (or `.xlsx`): A complete data dictionary displaying the column definitions, data types, nullability, keys, and specific allowed value constraints for every single table.
+* **`/database_scripts/`**: This directory contains all the standalone, ready-to-run `.sql` files:
+  * `schema_setup.sql`: Drops existing schemas to prevent duplication and rebuilds all 8 tables with proper indexing and foreign key dependencies.
+  * `data_validation_and_triggers.sql`: Compiles the dynamic logic, including the age check restrictions and the full `AFTER UPDATE` master audit trail logging engine.
+  * `operational_views.sql`: Builds the live reporting layovers, such as the active adoption menu view.
+  * `verification_tests.sql`: The database test scripts used to simulate real-world updates and check the live tracking results.
+* **`/csv_data/`**: This directory holds the raw mock datasets used to populate the tables via the import wizard:
+  * `animal.csv`, `person.csv`, `worker.csv`, `location.csv`: Core static baseline demographics.
+  * `arrival.csv`, `departure.csv`, `placement.csv`: Transactional historical logs tracking active operations.
+
+---
+
 ## Core Database Features
 
 ### 1. Data Validation and Constraints
