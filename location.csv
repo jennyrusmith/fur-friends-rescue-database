@@ -1,0 +1,11 @@
+location_ID,location_type,org_name,person_ID,zip_code,street_address,city,state_abbreviation
+1,rescue facility,Fur Friends Main Headquarters,NULL,19104,123 Rescue Way,Philadelphia,PA
+2,foster home,NULL,1,19102,456 oak st,Philadelphia,PA
+3,foster home,NULL,2,19105,789 maple ave,Philadelphia,PA
+4,foster home,NULL,3,87397,532 main st,Philadelphia,PA
+5,veterinary clinic,Liberty Vet Care,NULL,19147,742 Christian St,Philadelphia,PA
+6,boarding facility,Philly Pet Resort,NULL,19123,901 N Penn St,Philadelphia,PA
+7,other organization,City Animal Control,NULL,19140,111 W Hunting Park Ave,Philadelphia,PA
+8,foster home,NULL,14,96673,333 main st,Philadelphia,PA
+9,foster home,NULL,15,40512,987 teatree st,Philadelphia,PA
+10,veterinary clinic,Penn Vet Ryan Hospital,NULL,19104,3900 Spruce St,Philadelphia,PA

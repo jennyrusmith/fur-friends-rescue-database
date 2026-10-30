@@ -1,0 +1,6 @@
+worker_ID,worker_type,worker_status,first_name,last_name,phone_number,email,zip_code,street_address,city,state_abbreviation
+1,owner,active,Sarah,Jenkins,5551234567,sarah.j@furfriendsrescue.org,19104,123 Rescue Way,Philadelphia,PA
+2,employee,active,David,Miller,5559876543,david.m@furfriendsrescue.org,19104,125 Rescue Way,Philadelphia,PA
+3,volunteer,active,Emily,Davis,5554443322,emily.davis@gmail.com,19143,789 Spruce St,Philadelphia,PA
+4,intern,active,Alex,Johnson,5556667788,alex.j@temple.edu,19122,1801 N Broad St,Philadelphia,PA
+5,volunteer,inactive,Michael,Brown,5552221111,mbrown123@yahoo.com,19147,456 South St,Philadelphia,PA
