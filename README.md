@@ -23,7 +23,7 @@ The database features 8 relational tables linked via many-to-one (`>`) foreign k
 Every component of this project is organized into dedicated directories within the main branch for easy navigation:
 
 * **`README.md`**: File containing the project overview, core database features, and testing workflow.
-* **`Fur_Friends_Data_Dictionary.xlsx`**: A complete data dictionary displaying the column definitions, data types, nullability, keys, and specific allowed value constraints for every  table.
+* **`Fur_Friends_Data_Dictionary.xlsx`**: A complete data dictionary displaying the column definitions, data types, nullability, keys, and specific allowed value constraints for every  table. Click "View Raw" to download excel file.
 * **`/SQL/`**: This directory contains all the standalone, ready-to-run `.sql` files:
   * `schema_setup.sql`: Drops existing schemas to prevent duplication and rebuilds all 8 tables with proper indexing and foreign key dependencies.
   * `triggers.sql`: Compiles the dynamic logic, including the age check restrictions and the full `AFTER UPDATE` master audit trail logging engine.
